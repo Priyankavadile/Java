@@ -1,0 +1,12 @@
+public class mydate
+{
+ int dd;
+ int mm;
+ int yy;
+ 
+ public static void main(String args[])
+ {
+ mydate new=new mydate(1,2,1234);
+ }
+ }
+ 
