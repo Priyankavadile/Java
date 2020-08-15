@@ -1,0 +1,20 @@
+package Nest4Code;
+
+public class Assgn1 
+{
+
+	public static void main(String[] args) 
+	{
+		float prod1 = 70.0f;
+		float prod2 = 20.0f;
+		float prod3 = 10.0f;
+		
+		float product_price = prod1 + prod2 + prod3;    //100
+		
+		float tax = 18f;
+		float final_amt = (tax/100.0f) * product_price;   //18.0
+		System.out.println("final_Amount="+final_amt);
+
+	}
+
+}
